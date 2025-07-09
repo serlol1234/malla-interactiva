@@ -1,0 +1,79 @@
+{
+	"s1": [
+		["Introducción a la Programación","INF-129",5,7,"FI",[],"A"],
+		["Introducción al Cálculo","MAT-070",3,6,"PC",[],"A"],
+		["Álgebra y Geometría","MAT-060",3,6,"PC",[],"A"],
+		["Introducción a la Física","FIS-100",3,6,"PC",[],"A"],
+		["Inglés I / Español I","HXW-006",2,3,"HUM",[],"A"],
+		["Educación Física I","EFI-200",1,2,"HUM",[],"A"]
+	],
+	"s2": [
+		["Proyecto Inicial","IWG-400",5,7,"PC",[],"A"],
+		["Cálculo en una Variable","MAT-071",3,6,"PC",["MAT-070"],"A"],
+		["Álgebra Lineal","MAT-061",3,6,"PC",["MAT-060"],"A"],
+		["Física General Mecánica","FIS-110",3,6,"PC",["FIS-100"],"A"], 
+		["Inglés II / Español II","HXW-007",2,3,"HUM",["HXW-006"],"A"],
+		["Educación Física II","EFI-201",1,2,"HUM",["EFI-200"],"A"]
+	],
+	"s3": [
+		["Programación Avanzada","INF-131",3,6,"FI",["INF-129"],"A"],
+		["Cálculo en Varias Variables","MAT-081",3,6,"SD",["MAT-061","MAT-071"],"A"],
+		["Calor y Ondas","FIS-112",3,6,"PC",["FIS-110"],"A"],
+		["Matemática Discreta","INF-132",3,5,"FI",["MAT-070"],"A"],
+		["Análisis Crítico de Texto","HXW-008",2,3,"HUM",["HXW-007"],"A"],
+		["Administración y Sostenibilidad Organizacional","AUX-200",2,4,"TIN",[],"A"]
+	],
+	"s4": [
+		["Estructura de Datos","INF-133",3,6,"FI",["INF-131"],"A"],
+		["Estadística Computacional","INF-135",3,6,"FI",["INF-129"],"A"],
+		["Ecuaciones Diferenciales Elementales","MAT-053",3,5,"SD",[],"A"],
+		["Electricidad y Magnetismo","FIS-114",3,6,"PC",["FIS-112"],"A"],
+		["Ingeniería Económica","AUX-201",3,4,"TIN",["AUX-200"],"A"],
+		["Inglés III / Español III","HXW-009",2,3,"HUM",["HXW-008"],"A"]
+	],
+	"s5": [
+		["Bases de Datos","INF-138",3,5,"IS",["INF-133"],"A"],
+		["Arquitectura y Organización de Computadores","INF-140",3,5,"TIC",["INF-133"],"A"],
+		["Paradigmas de Programación","INF-141",3,5,"FI",["INF-133"],"A"],
+		["Teorema de Autómatas y Lenguajes formales","INF-143",3,5,"FI",["INF-132"],"A"],
+		["Optimización","INF-229",3,5,"IS",["INF-133"],"A"],
+		["Ingeniería, Informática y Sociedad","INF-142",3,5,"TIN",["IWG-400"],"A"]
+	],
+	"s6": [
+		["Análisis y Diseño de Software","INF-146",3,5,"IS",["INF-138"],"A"],
+		["Sistemas Operativos","INF-145",3,5,"TIC",["INF-140"],"A"],
+		["Computación Científica","INF-147",3,6,"IS",["INF-133"],"A"],
+		["Algoritmos y Complejidad","INF-144",3,6,"FI",["INF-133"],"A"],
+		["Investigación de operaciones","INF-148",3,5,"SD",["INF-135"],"A"],
+		["Inglés IV / Español IV","HXW-012",2,3,"HUM",["HXW-009"],"A"]
+	],
+	"s7": [
+		["Ingeniería de Software","INF-156",3,5,"IS",["INF-146"],"A"],
+		["Redes y Ciberseguridad","INF-154",3,6,"TIC",["INF-140"],"A"],
+		["Inteligencia Artificial I","INF-157",3,6,"AN",["INF-147"],"A"],
+		["Teoría de Sistemas","INF-153",3,5,"IS",["MAT-053"],"A"],
+		["Ciencia de Datos","INF-158",3,5,"AN",["INF-135"],"A"],
+		["Inglés Disciplinar","AUX-202",2,3,"HUM",["AUX-201"],"A"]
+	],
+	"s8": [
+		["Diseño de Experiencia Usuaria","INF-165",3,5,"IS",["INF-146"],"P"],
+		["Sistemas Distribuidos","INF-164",3,5,"TIC",["INF-145"],"A"],
+		["Electivo Informática I","AUX-219",3,5,"ELEC",[],"P"],
+		["Inteligencia Artificial II","INF-166",3,5,"AN",["INF-157"],"A"],
+		["Sistemas para la Gestión Organizacional","INF-167",3,5,"SD",["INF-142"],"P"],
+		["Proyecto de Ingeniería","INF-163",3,5,"SD",["INF-144"],"A"]
+	],
+	"s9": [
+		["Electivo","INF-302",3,5,"ELEC",["AUX-219"],"A"],
+		["Electivo Disciplinar","INF-169",3,6,"ELEC",[],"A"],
+		["Electivo Disciplinar II","INF-170",3,6,"ELEC",[],"A"],
+		["Electivo Disciplinar III","INF-171",3,6,"ELEC",[],"A"],
+		["Gestión de Proyectos de Informática","INF-168",5,7,"SD",["AUX-202"],"I"]
+	],
+	"s10": [
+		["Taller Complementario de Titulación","INF-539",3,4,"TIN",["INF-168"],"A"],
+		["Electivo Disciplinar IV","INF-540",3,6,"ELEC",[],"A"],
+		["Electivo Disciplinar V","INF-541",3,6,"ELEC",[],"A"],
+		["Taller de Desarrollo de Proyectos de Informática","INF-538",8,14,"TIN",["INF-164"],"P"]
+	]
+}
