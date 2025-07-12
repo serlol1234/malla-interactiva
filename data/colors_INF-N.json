@@ -1,11 +1,9 @@
 {
-	"PC": ["#00838F", "Plan Común"],
-	"FI": ["#2E58A7", "Fundamentos de Informática"],
-	"HUM": ["#eddacc", "Humanistas, libres y deportes"],
-	"TIN": ["#C54B73", "Transversal e Integración"],
-	"SD": ["#991B1E", "Sistemas de decisión informática"],
-	"IS": ["#faf36b", "Ingeniería de Software"],
-	"TIC": ["#6D57A5", "Infraestructura TIC"],
-	"AN": ["#00AD5D", "Análisis Numérico"],
-	"ELEC": ["#F78E1E", "Electivos Informática"]
+	"CH": ["#c2b774", "Comunicación y Humanidades"],
+	"CSSE": ["#728c50", "Ciencias Sociales y Económicas"],
+	"CB": ["#7d403c", "Ciencias Básicas"],
+	"CSI": ["#f79400", "Ciencias de la Ingeniería"],
+	"ESP": ["#324773", "Especialidad"],
+	"ELEC": ["#3f009e", "Electivos"],
+	"CTS": ["#482354", "Competencias Transversales Sello"]
 }
